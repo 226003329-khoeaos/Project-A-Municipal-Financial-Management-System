@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "utils.h"
 #include "employees.h"
+#include "budget.h"
 
 void displayMenu(void) 
 {
@@ -25,7 +26,7 @@ int main(void)
 
         switch (choice) {
             case 1: employeeMenu(); break;
-            case 2: printf("Budget module coming soon.\n"); break;
+            case 2: budgetMenu(); break;
             case 3: printf("Supplier module coming soon.\n"); break;
             case 4: printf("Asset module coming soon.\n"); break;
             case 5: printf("Reports coming soon.\n"); break;
