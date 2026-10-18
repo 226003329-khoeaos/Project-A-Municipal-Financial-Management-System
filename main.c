@@ -4,6 +4,7 @@
 #include "budget.h"
 #include "suppliers.h"
 #include "assets.h"
+#include "reports.h"
 
 void displayMenu(void) 
 {
@@ -31,7 +32,7 @@ int main(void)
             case 2: budgetMenu(); break;
             case 3: supplierMenu(); break;
             case 4: assetMenu(); break;
-            case 5: printf("Reports coming soon.\n"); break;
+            case 5: reportsMenu(); break;
             case 6: printf("Goodbye.\n"); break;
         }
     } while (choice != 6);

@@ -4,7 +4,7 @@
 void budgetMenu(void);
 int getBudgetCount(void);
 double getTotalAllocated(void);
-double getTotalSpend(void);
+double getTotalSpent(void);
 void displayOverBudget(void);
 
 #endif

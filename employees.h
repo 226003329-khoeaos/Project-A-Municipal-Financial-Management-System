@@ -3,6 +3,7 @@
 
 void employeeMenu(void);
 int getEmployeeCount(void);
-double getEmplyeeGross(int index);
+double getEmployeeGross(int index);
 
 #endif
+
